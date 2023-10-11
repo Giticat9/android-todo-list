@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_dashboard"
+            android:title="@string/menu_dashboard"
+            android:icon="@drawable/ic_menu_dashboard"/>
+
+        <item
+            android:id="@+id/nav_tasks"
+            android:title="@string/menu_tasks"
+            android:icon="@drawable/ic_menu_tast"/>
+
+        <item
+            android:id="@+id/nav_lists"
+            android:title="@string/menu_lists"
+            android:icon="@drawable/ic_menu_list"/>
+    </group>
+
+</menu>
